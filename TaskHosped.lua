@@ -428,7 +428,7 @@ setDefaultTab("RIQUE")
 
 
 UI.Button("M A C R O S", function(newText)
-UI.MultilineEditorWindow(storage.ingame_hotkeys or "", {title="RIQUEZIN", description="Discord: riquezerah"}, function(text)
+UI.MultilineEditorWindow(storage.ingame_hotkeys or "", {title="RIQUEZIN!", description="Discord: riquezerah"}, function(text)
       storage.ingame_hotkeys = text
       reload()
     end)
